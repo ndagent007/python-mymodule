@@ -8,3 +8,5 @@ import pandas as pd
 exam_df=pd.DataFrame(exam_data)
 
 print(exam_df)
+
+max_score=exam_df.score.max()
